@@ -21,6 +21,7 @@
 /*****************************************************************/
 
 #include <iterator>
+#include <iostream>
 #include "Relayer.h"
 #include "MBUtils.h"
  
@@ -51,8 +52,10 @@ bool Relayer::OnNewMail(MOOSMSG_LIST &NewMail)
     
     string key = msg.GetKey();
 
-    if(key == m_incoming_var) 
+	if(key == m_incoming_var) {
       m_tally_recd++;
+	  cout << "Hello" << endl;
+	}
   }
   return(true);
 }

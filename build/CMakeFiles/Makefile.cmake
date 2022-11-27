@@ -14,6 +14,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/toyat/moos-ivp-extend/src/CMakeLists.txt"
   "/home/toyat/moos-ivp-extend/src/lib_behaviors-test/CMakeLists.txt"
   "/home/toyat/moos-ivp-extend/src/pExampleApp/CMakeLists.txt"
+  "/home/toyat/moos-ivp-extend/src/pOdometry/CMakeLists.txt"
   "/home/toyat/moos-ivp-extend/src/pSequence/CMakeLists.txt"
   "/home/toyat/moos-ivp-extend/src/pXRelayTest/CMakeLists.txt"
   "/home/toyat/moos-ivp/build/MOOS/MOOSCore/MOOSConfig.cmake"
@@ -59,6 +60,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "src/pExampleApp/CMakeFiles/CMakeDirectoryInformation.cmake"
   "src/pXRelayTest/CMakeFiles/CMakeDirectoryInformation.cmake"
   "src/pSequence/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/pOdometry/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -67,4 +69,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "src/pExampleApp/CMakeFiles/pExampleApp.dir/DependInfo.cmake"
   "src/pXRelayTest/CMakeFiles/pXRelayTest.dir/DependInfo.cmake"
   "src/pSequence/CMakeFiles/pSequence.dir/DependInfo.cmake"
+  "src/pOdometry/CMakeFiles/pOdometry.dir/DependInfo.cmake"
   )

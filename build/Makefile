@@ -168,6 +168,19 @@ pSequence/fast:
 	$(MAKE) $(MAKESILENT) -f src/pSequence/CMakeFiles/pSequence.dir/build.make src/pSequence/CMakeFiles/pSequence.dir/build
 .PHONY : pSequence/fast
 
+#=============================================================================
+# Target rules for targets named pOdometry
+
+# Build rule for target.
+pOdometry: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pOdometry
+.PHONY : pOdometry
+
+# fast build rule for target.
+pOdometry/fast:
+	$(MAKE) $(MAKESILENT) -f src/pOdometry/CMakeFiles/pOdometry.dir/build.make src/pOdometry/CMakeFiles/pOdometry.dir/build
+.PHONY : pOdometry/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -178,6 +191,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... BHV_SimpleWaypoint"
 	@echo "... pExampleApp"
+	@echo "... pOdometry"
 	@echo "... pSequence"
 	@echo "... pXRelayTest"
 .PHONY : help

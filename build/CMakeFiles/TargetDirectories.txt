@@ -14,3 +14,6 @@
 /home/toyat/moos-ivp-extend/build/src/pSequence/CMakeFiles/pSequence.dir
 /home/toyat/moos-ivp-extend/build/src/pSequence/CMakeFiles/edit_cache.dir
 /home/toyat/moos-ivp-extend/build/src/pSequence/CMakeFiles/rebuild_cache.dir
+/home/toyat/moos-ivp-extend/build/src/pOdometry/CMakeFiles/pOdometry.dir
+/home/toyat/moos-ivp-extend/build/src/pOdometry/CMakeFiles/edit_cache.dir
+/home/toyat/moos-ivp-extend/build/src/pOdometry/CMakeFiles/rebuild_cache.dir
